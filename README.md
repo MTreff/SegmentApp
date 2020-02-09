@@ -1,0 +1,2 @@
+# SegmentApp
+Image segmentation service
