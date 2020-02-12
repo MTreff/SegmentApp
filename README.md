@@ -9,4 +9,5 @@ Implemented such functions as:
   - Blur the background of selected objects
   
 The pre-trained neural network FCN - RESNET 101 from PyTorch library was used as a neural network segmenter.
+
 The service is implemented as the final project of the first semester of Deep Learning School 2019-2020.
