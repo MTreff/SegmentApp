@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Семантическая сегментация. Результат</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="/">SegmentApp</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item ">
+            <a class="nav-link" href="/">Главная <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="">Семантическая сегментация</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/remove_background" >Удаление фона</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/grayscale_background">Фон в градациях серого</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="/blur_background">Размытие фона</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="container" style="height: 60px;"></div>
+    <div class="container">
+      <h2 class="text-center">Семантическая сегментация. Результат обработки</h2>
+    </div>
+    <div class="container" style="height: 40px;"></div>
+        <div class="container">
+          <div class="row" style="width: 100%;">
+            <div class="container" style="width: 48%;">
+              <h4>Исходное изображение:</h4>
+            </div>
+            <div class="container" style="width: 4%;">
+           </div>
+            <div class="container" style="width: 48%;">
+              <h4>Сегментированное изображение:</h4>
+            </div>
+       </div>
+            <div class="row" style="width: 100%;">
+                 <div class="container" style="width: 48%;">
+                  <div class="container" style="height: 30px;"></div>
+                     <img src="{{ image.image.url }}" class="img-responsive"  style="width: 100%"/>
+                 </div>
+                 <div class="container" style="width: 4%;">
+                  
+                </div>
+                 <div class="container" style="width: 48%;">
+                  <div class="container" style="height: 30px;"></div>
+                     <img src="{{url}}" class="img-responsive"  style="width: 100%"/>
+                 </div>
+            </div>
+        </div>
+    <footer id="sticky-footer" class="py-3 bg-dark text-white-50" style="position: absolute; left: 0; bottom: 0; width: 100%; height: 60px;">
+    <div class="container text-center">
+      <small>Copyright &copy; SegmentApp, 2020</small>
+    </div>
+  </footer>
+</body>
+</html>

@@ -25,7 +25,7 @@ SECRET_KEY = 'njdulyai@4)kq9_e_g+zm^5tgwx6(y2$4cfn17cdwez&nh#2pe'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['segmentapp.ru']
 
 
 # Application definition
